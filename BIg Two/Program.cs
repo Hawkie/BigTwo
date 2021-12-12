@@ -146,7 +146,7 @@ namespace BIg_Two
 
                                 bool holeInLine = false;
 
-                                //if we look at the next 4 values up and down from this card, do we have them in our hand?
+                                //if we look at the next 4 values up from this card, do we have them in our hand?
                                 int currentCardValue = currentCard.Value;
                                 for (int j = 1; j <= 4; j++)
                                 {
