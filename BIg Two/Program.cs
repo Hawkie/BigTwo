@@ -96,7 +96,7 @@ namespace BIg_Two
 
                 //check for straight now
                 //straight - need 5 consecutive numbers
-                for (int v = 0; v < 12; v++)
+                for (int v = 0; v <= 12; v++)
                 {
                     //loop through every card value and check to see if we have a card of this value
                     //if we do, check the next value upwards..and if we have 5 in a row, we have a straight
