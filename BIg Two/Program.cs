@@ -91,7 +91,7 @@ namespace BIg_Two
 
                 if (_pair && (_triple || _four))
                 {
-                    Results._array[(int) Hands.FullHouse]++;
+                    Results._array[(int)Hands.FullHouse]++;
                 }
 
                 //check for straight now
@@ -179,7 +179,7 @@ namespace BIg_Two
             {
                 Console.Write($"probability of {type}");
                 Console.Write(' ');
-                Console.WriteLine((decimal) Results._array[(int)type] / (decimal)NumRuns);
+                Console.WriteLine((decimal)Results._array[(int)type] / (decimal)NumRuns);
             }
 
             Console.WriteLine($"time for {NumRuns} runs was {stopwatch.ElapsedMilliseconds} milliseconds");
