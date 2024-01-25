@@ -6,7 +6,7 @@ namespace BIg_Two
     {
         private readonly int _value;
         private readonly int _suit;
-        
+
         public int Value => _value;
         public string ValueName => ValueToName(_value);
 
